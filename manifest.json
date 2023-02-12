@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+
+  "name": "RoBow",
+  "version": "0.1.0",
+  "description": "A Refresh of the website!",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [{
+    "matches": ["https://www.roblox.com/*", "https://web.roblox.com/*"],
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "run_at": "document_end"
+  }],
+  "permissions": [
+    "activeTab",
+    "declarativeContent"
+  ]
+}

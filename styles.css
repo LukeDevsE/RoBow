@@ -1,0 +1,141 @@
+@keyframes rainbow
+
+
+  {
+    /* Red */
+    0% {background-color: #E2231A;
+    border-color: #E2231A;
+  }
+
+  14%
+  {
+    /* Orange */
+    background-color: #F68802;
+    border-color: #F68802;
+  }
+
+  28%
+  {
+    /* yellow */
+    background-color: #F6B702;
+    border-color: #F6B702;
+  }
+
+  42%
+  {
+    /* green */
+    background-color: #00b06f;
+    border-color: #00b06f;
+  }
+
+  56%
+  {
+    /* Blue */
+    background-color: #00A2FF;
+    border-color: #00A2FF;
+  }
+
+  80%
+  {
+    background-color: purple;
+    border-color: purple;
+  }
+                        94%
+  {
+    background-color: turquoise;
+    border-color: turquoise;
+  }
+                        100%
+  {
+    /* Red */
+    background-color: #E2231A;
+    border-color: #E2231A;
+  }
+                    }
+
+@keyframes rainbow-border
+
+
+  {
+    0% {
+    border-color: red;
+  }
+
+  14%
+  {
+    
+    border-color: orange;
+  }
+
+  28%
+  {
+    
+    border-color: yellow;
+  }
+
+  42%
+  {
+    
+    border-color: green;
+  }
+
+  56%
+  {
+    
+    border-color: blue;
+  }
+
+  80%
+  {
+    
+    border-color: purple;
+  }
+                        94%
+  {
+    
+    border-color: purple;
+  }
+                        100%
+  {
+    
+    border-color: purple;
+  }
+                    }
+
+
+.btn-common-play-game-lg
+{
+  animation: rainbow 18s infinite;
+  transition: transform .2s;
+}
+/*
+.rbx-header
+{
+animation: rainbow-border 18s infinite;
+}
+*/
+.btn-common-play-game-lg:hover
+{
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
+}
+@keyframes wobble {
+  0% {
+    transform: rotate(0deg)
+  }
+  30% {
+    transform: rotate(-30deg)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+.icon-logo-r-95,
+.dark-theme .icon-logo-r-95 {
+    animation: wobble 2s infinite;
+}
+.dark-theme .modal-dialog .modal-content {
+border-radius: 25px;
+}
