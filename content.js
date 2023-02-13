@@ -11,6 +11,8 @@ elements.forEach(function(element) {
 
 
 const header = document.querySelector('.games-list-header h1');
-header.innerHTML = 'Games';
+if (header) {
+  header.innerHTML = 'Games';
+}
 const bannerContainer = document.querySelector('.banner-container');
 bannerContainer.className = 'banner-container hidden';
