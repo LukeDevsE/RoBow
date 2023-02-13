@@ -139,3 +139,6 @@ animation: rainbow-border 18s infinite;
 .dark-theme .modal-dialog .modal-content {
 border-radius: 25px;
 }
+.light-theme .modal-dialog .modal-content {
+border-radius: 25px;
+}
